@@ -1,0 +1,6 @@
+The Numbers are: 10 20 30 40 50
+Sum of numbers is: 150
+The Numbers are: 10 -15 150 90 50
+Enter positive numbers only
+The Numbers are: 1 10 100 1000 10000
+Sum of numbers is: 11111

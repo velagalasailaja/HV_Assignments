@@ -1,0 +1,3 @@
+The brand names of the car are : ['Swift', 'Indica', 'Innova', 'Nano']
+The colours of the car are: ['Black', 'White', 'Blue', 'Yellow']
+The dictionary is : {'Swift': 'Black', 'Indica': 'White', 'Innova': 'Blue', 'Nano': 'Yellow'}
