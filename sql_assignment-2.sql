@@ -56,7 +56,7 @@
 /*Return consumer name, city, order number, order date, and order amount in ascending order according to the order date 
 to determine whether any of the existing consumers have placed an order or not*/
 -- SELECT  c.consumer_name,s.city,o.order_no,o.order_date,o.purchase_amount from consumer c,orders o,sales_manager s 
--- where exists(select consumer_name from consumer c,orders o where c.consumer_id=o.consumer_id)
+-- where consumer_name=any (select consumer_name from consumer where c.consumer_id=o.consumer_id or c.consumer_id <> o.consumer_id)
 -- order by order_date
 
 /*Fetch the consumer name, city, order number, order date, order amount, and sales manager name to find out whether any existing consumer(s) 
